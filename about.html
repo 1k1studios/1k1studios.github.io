@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — 1K1 Studios</title>
+  <meta name="description" content="Learn more about 1K1 Studios — a solo game development studio crafting immersive digital experiences.">
+  <meta name="author" content="1K1 Studios">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body data-page="about">
+
+<div id="loader-wrapper">
+  <div class="loader"></div>
+  <p>Loading 1K1 Studios...</p>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="1K1 Studios">
+      <svg class="logo-svg" viewBox="0 0 148 36" xmlns="http://www.w3.org/2000/svg">
+        <line x1="8"  y1="6" x2="8"  y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="4"  y1="10" x2="8"  y2="6"  stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="18" y1="6" x2="18" y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="18" y1="18" x2="28" y2="6"  stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="18" y1="18" x2="28" y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="36" y1="6" x2="36" y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="32" y1="10" x2="36" y2="6"  stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="46" y="14" width="7" height="7" fill="none" stroke="#c9a84c" stroke-width="1" transform="rotate(45 49.5 17.5)" opacity="0.5"/>
+        <text x="60" y="23" font-family="Cinzel,serif" font-size="11" fill="#c9a84c" letter-spacing="3.5" font-weight="500">STUDIOS</text>
+      </svg>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="/index.html" class="nav-link">Home</a></li>
+        <li><a href="/about.html" class="nav-link active">About</a></li>
+        <li><a href="/spqr.html" class="nav-link">SPQR</a></li>
+      </ul>
+    </nav>
+    <div class="lang-bar">
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-lang="tr" onclick="setLang('tr')">TR</button>
+      </div>
+    </div>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero-section sub-hero">
+  <div class="hb hb-tl"></div><div class="hb hb-tr"></div>
+  <div class="hb hb-bl"></div><div class="hb hb-br"></div>
+  <div class="container hero-content" data-aos="fade-up">
+    <p class="section-label" data-i18n="heroLabel">Our Story</p>
+    <h1 class="hero-title" data-i18n="heroTitle">Innovation Through Passion</h1>
+    <p class="hero-desc" data-i18n="heroDesc">From humble beginnings to a growing force in interactive entertainment — this is the story of 1K1 Studios.</p>
+  </div>
+</section>
+
+<!-- MISSION / VISION -->
+<section class="section section-alt" data-aos="fade-up">
+  <div class="container">
+    <div class="mv-grid">
+      <div class="mv-card" data-aos="fade-right">
+        <h3 data-i18n="missionTitle">Our Mission</h3>
+        <p data-i18n="missionDesc">To create immersive and emotionally resonant digital experiences that captivate players worldwide, pushing the boundaries of creativity and technology.</p>
+      </div>
+      <div class="mv-card" data-aos="fade-left">
+        <h3 data-i18n="visionTitle">Our Vision</h3>
+        <p data-i18n="visionDesc">To be recognized as a pioneer in the gaming industry, known for innovation, quality, and a commitment to fostering a vibrant gaming community.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section" data-aos="fade-up">
+  <div class="container">
+    <p class="section-label" style="text-align:center;margin-bottom:8px;" data-i18n="valLabel">What Drives Us</p>
+    <h2 class="section-title" data-i18n="valTitle">Core Values</h2>
+    <div class="values-grid">
+      <div class="value-item" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-lightbulb"></i>
+        <h3 data-i18n="v1t">Innovation</h3>
+        <p data-i18n="v1d">Constantly exploring new ideas and technologies.</p>
+      </div>
+      <div class="value-item" data-aos="fade-up" data-aos-delay="150">
+        <i class="fas fa-handshake"></i>
+        <h3 data-i18n="v2t">Collaboration</h3>
+        <p data-i18n="v2d">Fostering a supportive and creative environment.</p>
+      </div>
+      <div class="value-item" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-heart"></i>
+        <h3 data-i18n="v3t">Passion</h3>
+        <p data-i18n="v3d">Driven by a deep love for games and storytelling.</p>
+      </div>
+      <div class="value-item" data-aos="fade-up" data-aos-delay="250">
+        <i class="fas fa-cogs"></i>
+        <h3 data-i18n="v4t">Excellence</h3>
+        <p data-i18n="v4d">Committed to delivering the highest quality in every aspect.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="section section-alt" data-aos="fade-up">
+  <div class="container">
+    <p class="section-label" style="text-align:center;margin-bottom:8px;" data-i18n="teamLabel">The Team</p>
+    <h2 class="section-title" data-i18n="teamTitle">Behind the Studio</h2>
+    <div class="team-grid">
+      <div class="team-member" data-aos="fade-up">
+        <div class="team-avatar">
+          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+            <circle cx="40" cy="32" r="16" fill="none" stroke="rgba(201,168,76,0.5)" stroke-width="1.5"/>
+            <path d="M8 76 Q40 54 72 76" fill="none" stroke="rgba(201,168,76,0.5)" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h3>Uğur Can Kayacı</h3>
+        <p data-i18n="teamRole">Founder &amp; Solo Developer</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="https://www.youtube.com/@onekeyonestudios" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/onekeyone-game-studios/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/1k1studios/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.reddit.com/user/Rich-Television30/" target="_blank" aria-label="Reddit"><i class="fab fa-reddit-alien"></i></a>
+          <a href="https://github.com/Can1k1" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="spqr.html">SPQR</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-logo-col">
+        <a href="index.html" class="logo">
+          <svg class="logo-svg" viewBox="0 0 148 36" xmlns="http://www.w3.org/2000/svg">
+            <line x1="8"  y1="6" x2="8"  y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="4"  y1="10" x2="8"  y2="6"  stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="18" y1="6" x2="18" y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="18" y1="18" x2="28" y2="6"  stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="18" y1="18" x2="28" y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="36" y1="6" x2="36" y2="30" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="32" y1="10" x2="36" y2="6"  stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="46" y="14" width="7" height="7" fill="none" stroke="#c9a84c" stroke-width="1" transform="rotate(45 49.5 17.5)" opacity="0.5"/>
+            <text x="60" y="23" font-family="Cinzel,serif" font-size="11" fill="#c9a84c" letter-spacing="3.5" font-weight="500">STUDIOS</text>
+          </svg>
+        </a>
+        <p>&copy; <span class="current-year">2025</span> All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
